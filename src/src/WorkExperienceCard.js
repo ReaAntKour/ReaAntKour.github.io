@@ -107,7 +107,7 @@ function WorkExperienceCard(props) {
         <Accordion.Toggle as={Card.Header} eventKey="0">
           <a href={props.entry.link}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={props.entry.logo}/> </a>
           <a href={props.entry.imageLink}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-left'} width='200px' src={props.entry.image}/> </a>
-          <Card style={{border: 'transparent', background: 'transparent', minWidth: '100px'}}>
+          <Card style={{border: 'transparent', background: 'transparent', minWidth: '250px'}}>
             <Markdown>
               {formatTitle(props.entry)}
             </Markdown>

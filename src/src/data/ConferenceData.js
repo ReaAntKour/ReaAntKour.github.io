@@ -154,6 +154,7 @@ class ConferenceData {
             "title": "Seasonal time keeping in plants: Remembering winter to time flowering",
             "year": "2021",
             "location": "Invited speaker at 85th Cold Spring Harbor Laboratory Symposium on Quantitative Biology: Biological Time Keeping",
+            "url": "https://meetings.cshl.edu/meetings.aspx?meet=symp&year=21",
             "dates": "1-5 June 2021",
             "keywords": [
                 "Conference"
@@ -180,6 +181,7 @@ class ConferenceData {
             "title": "Breaking winter into “Bits”: how plants sense the cold",
             "year": "2021",
             "location": "Invited seminar at the Linnean Centre Plant Science Frontiers Seminars",
+            "url": "https://lcpu.se/?seminar=breaking-winter-into-bits-how-plants-sense-the-cold",
             "dates": "22 April 2021",
             "keywords": [
                 "Seminar"
@@ -350,6 +352,7 @@ class ConferenceData {
             "title": "Artificial Photosynthesis of Hybrid Systems",
             "year": "2011",
             "location": "Oral Presentation at the 11th International Conference on Carbon Dioxide Utilisation (ICCDU XI). Dijon, France",
+            "url": "https://www.rsc.org/events/detail/5896/11th%20International%20Conference%20on%20Carbon%20Dioxide%20Utilization/venue",
             "dates": "27-30 June 2011",
             "keywords": [
                 "Conference"
