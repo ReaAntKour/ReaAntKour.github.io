@@ -20,11 +20,11 @@ class TechReports {
     
   /* Return entries since 2018. */
   getRecentKeys = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === "2021")||(entry.year === "2020")||(entry.year === "2019")||(entry.year === "2018")));
+    return this.extractKey(_.filter(paperData, entry => (entry.year === "2021")||(entry.year === "2020")));
   }
 
   getRecentCount = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === "2021")||(entry.year === "2020")||(entry.year === "2019")||(entry.year === "2018"))).length;
+    return this.extractKey(_.filter(paperData, entry => (entry.year === "2021")||(entry.year === "2020"))).length;
   }
 
   /* Return a list of selected entry keys. */

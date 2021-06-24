@@ -34,7 +34,7 @@ class WorkExperienceData {
             ],
             "result": "Awarded 20th January 2014",
             "vivaDate":"Viva: 17th December 2013",
-            "abstract": "I developed a novel photocatalyst by combining the light harvesting complex (LHCII) of plants with a known UV-light photocatalyst, TiO2, to convert CO2 to fuel using visible light. Mathematical models of the chemical reactions identified targets for optimisation.",
+            "abstract": "I developed a novel photocatalyst by combining the light harvesting complex (LHCII) of plants with a known UV-light photocatalyst, TiO₂, to convert CO₂ to fuel using visible light. Mathematical models of the chemical reactions identified targets for optimisation.",
             "keywords": [
             "Journal-Article"
             ],

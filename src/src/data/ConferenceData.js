@@ -14,15 +14,15 @@ class ConferenceData {
     /* Return the three most recent entries. */
     //getRecentKeys = () => this.getKeys().slice(0, 3);
     
-    /* Return entries since 2018. */
+    /* Return entries since 2020. */
     getRecentKeys = () => {
         const entries = this.getSortedEntries(this.data);
-        return this.extractKey(_.filter(entries, entry => (entry.year === "2021")||(entry.year === "2020")||(entry.year === "2019")||(entry.year === "2018")));
+        return this.extractKey(_.filter(entries, entry => (entry.year === "2021")||(entry.year === "2020")));
     }
 
     getRecentCount = () => {
         const entries = this.getSortedEntries(this.data);
-        return this.extractKey(_.filter(entries, entry => (entry.year === "2021")||(entry.year === "2020")||(entry.year === "2019")||(entry.year === "2018"))).length;
+        return this.extractKey(_.filter(entries, entry => (entry.year === "2021")||(entry.year === "2020"))).length;
     }
 
     /* Return Invited entries. */
@@ -149,7 +149,47 @@ class ConferenceData {
 
     data = [
         {
-            "key": "u2106",
+            "key": "o2107",
+            "type": "Oral",
+            "title": "Mathematical models of winter sensing in plants: a tale of growth and unpredictable predictions",
+            "year": "2021",
+            "location": "Oral presentation at the 31st International Conference on Arabidopsis Research (ICAR), Virtual",
+            "dates": "21-25 June 2021",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2107,
+            "selected": 1
+        },
+        {
+            "key": "i2107",
+            "type": "Invited",
+            "title": "Breaking winter into “Bits”: how plants sense the cold",
+            "year": "2021",
+            "location": "Invited seminar at the Plant Biology seminar series at the University of York, UK",
+            "dates": "15 June 2021",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2107,
+            "selected": 0
+        },
+        {
+            "key": "o2106",
+            "type": "Oral",
+            "title": "Modelling how plants sense and remember winter",
+            "year": "2021",
+            "location": "Oral presentation at the 5th Annual Crops in silico Symposium. University of Illinois, USA",
+            "dates": "8-9 June 2021",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2106,
+            "selected": 0
+
+        },
+        {
+            "key": "i2106",
             "type": "Invited",
             "title": "Seasonal time keeping in plants: Remembering winter to time flowering",
             "year": "2021",
@@ -163,24 +203,24 @@ class ConferenceData {
             "selected": 1
         },
         {
-            "key": "u2105",
+            "key": "i2105",
             "type": "Invited",
             "title": "How plants use their growth rate to measure long-term temperature",
             "year": "2021",
-            "location": "Invited seminar in Plantastic monthly seminar series at the Centre for Plant Sciences, University of Leeds",
+            "location": "Invited seminar in Plantastic monthly seminar series at the Centre for Plant Sciences, University of Leeds, UK",
             "dates": "18 May 2021",
             "keywords": [
                 "Seminar"
             ],
             "sortKey": 2105,
-            "selected": 0
+            "selected": 1
         },
         {
-            "key": "u2104",
+            "key": "i2104",
             "type": "Invited",
             "title": "Breaking winter into “Bits”: how plants sense the cold",
             "year": "2021",
-            "location": "Invited seminar at the Linnean Centre Plant Science Frontiers Seminars",
+            "location": "Invited seminar at the Linnean Centre Plant Science Frontiers Seminars, Uppsala, Sweden",
             "url": "https://lcpu.se/?seminar=breaking-winter-into-bits-how-plants-sense-the-cold",
             "dates": "22 April 2021",
             "keywords": [
@@ -194,7 +234,7 @@ class ConferenceData {
             "type": "Invited",
             "title": "Modelling temperature-dependent epigenetic regulation",
             "year": "2020",
-            "location": "Invited seminar in “Mathematics of life: Modelling molecular mechanisms” course by EMBL-EBI",
+            "location": "Invited seminar in “Mathematics of life: Modelling molecular mechanisms” course by EMBL-EBI, Cambridge, UK",
             "dates": "28 September - 2 October 2020",
             "keywords": [
                 "Conference"
@@ -282,19 +322,6 @@ class ConferenceData {
             "selected": 0
         },
         {
-            "key": "o1707",
-            "type": "Oral",
-            "title": "Mathematical modelling of temperature-sensitive epigenetic switches",
-            "year": "2017",
-            "location": "Oral Presentation at Epigenetics meets mathematics. Berlin, Germany",
-            "dates": "2-8 July 2017",
-            "keywords": [
-                "Conference"
-            ],
-            "sortKey": 1707,
-            "selected": 0
-        },
-        {
             "key": "o1712",
             "type": "Oral",
             "title": "Absence of warmth: the epigenetic signature of winter",
@@ -308,16 +335,16 @@ class ConferenceData {
             "selected": 0
         },
         {
-            "key": "o1607",
+            "key": "o1707",
             "type": "Oral",
-            "title": "Temperature-sensitive epigenetic switches in a real winter",
-            "year": "2016",
-            "location": "Oral Presentation at The Third Annual Cambridge Epigenetics Symposium. The Sainsbury Laboratory, Cambridge",
-            "dates": "1 July 2016",
+            "title": "Mathematical modelling of temperature-sensitive epigenetic switches",
+            "year": "2017",
+            "location": "Oral Presentation at Epigenetics meets mathematics. Berlin, Germany",
+            "dates": "2-8 July 2017",
             "keywords": [
                 "Conference"
             ],
-            "sortKey": 1607,
+            "sortKey": 1707,
             "selected": 0
         },
         {
@@ -331,6 +358,19 @@ class ConferenceData {
                 "Conference"
             ],
             "sortKey": 1610,
+            "selected": 0
+        },
+        {
+            "key": "o1607",
+            "type": "Oral",
+            "title": "Temperature-sensitive epigenetic switches in a real winter",
+            "year": "2016",
+            "location": "Oral Presentation at The Third Annual Cambridge Epigenetics Symposium. The Sainsbury Laboratory, Cambridge",
+            "dates": "1 July 2016",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 1607,
             "selected": 0
         },
         {
