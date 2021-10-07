@@ -59,7 +59,7 @@ const renderDeck = (deckNum) => {
               <a href='https://www.researchgate.net/profile/Rea_Antoniou_Kourounioti'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/researchgate.png'}/> </a>
               <a href='https://publons.com/researcher/AAY-3284-2020/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/publons.jpg'}/> </a>
               <a href='https://github.com/ReaAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/github.png'}/> </a>
-              <a href='mailto:Rea.Kourounioti@jic.ac.uk'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/envelope.png'}/> </a>
+              <a href='mailto:rea@antoniou-kourounioti.com'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/envelope.png'}/> </a>
             </Card.Body>
           </Card>
         </Col>

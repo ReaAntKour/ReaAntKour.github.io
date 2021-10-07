@@ -49,11 +49,30 @@ class WorkExperienceData {
             "sortKey": 2014
         },
         {
+            "key": "project3",
+            "type": "postdoc",
+            "title": "Bioinformatics",
+            "grantTitle": "Core JIC funding",
+            "year": "Current Position (2021)",
+            "location": "John Innes Centre, UK",
+            "area":"Part of the [JIC Informatics group](https://www.jic.ac.uk/research-impact/technology-research-platforms/informatics/)",
+            "abstract": "Bioinformatics analysis, data visualisation and tool development.",
+            "supervisors": "In the group of [Dr Burkhard Steuernagel](https://www.jic.ac.uk/people/burkhard-steuernagel/)",
+            "keywords": [
+            "Journal-Article"
+            ],
+            "image": "images/informatics.png",
+            "logo": "images/jic.jpg",
+            "link": "https://www.jic.ac.uk/",
+            "funderLogo": "images/BBSRC.png",
+            "sortKey": 2022
+        },
+        {
             "key": "project2",
             "type": "postdoc",
             "title": "Postdoc Research on Quantitative Gene Regulation",
             "grantTitle": "Dissecting quantitative, analogue, antisense-mediated transcriptional control (BBSRC funding)",
-            "year": "Current Position (2018-present)",
+            "year": "2018-2021",
             "location": "John Innes Centre, UK",
             "area":"Interdisciplinary research combining mathematical modelling and experimental plant biology",
             "abstract": "Plants need to quantitatively regulate gene expression to set up their vernalization requirement. I am developing a stochastic spatial model of protein expression in growing roots, that will be compared against microscopy data, collected by collaborators at SLU, Uppsala. Additionally, I am involved in coordinating the project and co-supervising a PhD student from an experimental background.",

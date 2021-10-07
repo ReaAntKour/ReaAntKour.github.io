@@ -43,16 +43,16 @@ const formatAboveMap = {
 const formatProject = entry => {
   return (
     <div>
-    <a href={entry.collaboratorLink1}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={entry.collaboratorLogo1}/> </a>
+    {entry.collaboratorLogo1 ? <a href={entry.collaboratorLink1}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={entry.collaboratorLogo1}/> </a> : ""}
     {entry.collaboratorLogo2 ? <a href={entry.collaboratorLink2}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={entry.collaboratorLogo2}/> </a> : ""}
     <Markdown>
-      {`${entry.supervisors}  
-      **Collaborators:** ${entry.contributors.join(', ')}  `}
+      {`${entry.supervisors}  `}
     </Markdown>
+    {entry.contributors ? <Markdown>{`**Collaborators:** ${entry.contributors.join(', ')}  `}</Markdown>: ""}
     <Markdown>
       {`${entry.abstract}`}
     </Markdown>
-    <a href={entry.funderLink}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={entry.funderLogo}/> </a>
+    {entry.funderLogo ? <a href={entry.funderLink}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-right'} width='200px' src={entry.funderLogo}/> </a> : ""}
     {entry.videoImage ? <a href={entry.videoLink}> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-left'} width='250px' src={entry.videoImage}/> </a> : ""}
     </div>
   );
