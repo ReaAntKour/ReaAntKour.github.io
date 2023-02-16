@@ -6,7 +6,7 @@ import Title from './Title';
 import TechReports from './TechReports';
 import SectionToggle from './SectionToggle';
 import PaperCard from './PaperCard';
-//import PaperForm from './PaperForm';
+// import PaperForm from './PaperForm';
 
 /**
  * Display the Papers section.
@@ -66,7 +66,7 @@ function Papers(props) {
     </div>
   );
 }
-//{display === 'recent' ? renderRecent() : renderAll()}
+// {display === 'recent' ? renderRecent() : renderAll()}
 
 Papers.propTypes = {
   sectionStyle: PropTypes.object.isRequired,

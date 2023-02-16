@@ -49,11 +49,29 @@ class WorkExperienceData {
             "sortKey": 2014
         },
         {
+            "key": "lecturer",
+            "type": "postdoc",
+            "title": "Lecturer",
+            "grantTitle": "Core funding",
+            "year": "Current Position (since June 2022)",
+            "location": "University of Glasgow, UK",
+            "area":"[School of Molecular Biosciences](https://www.gla.ac.uk/schools/molecularbiosciences/)",
+            "abstract": "Mathematical modelling of plant temperature responses.",
+            "supervisors": "",
+            "keywords": [
+            "Journal-Article"
+            ],
+            "image": "images/cell_therm_grey.png",
+            "logo": "images/UoG_grey.png",
+            "link": "https://www.gla.ac.uk/schools/molecularbiosciences/staff/realailaantonioukourounioti/",
+            "sortKey": 2023
+        },
+        {
             "key": "project3",
             "type": "postdoc",
             "title": "Bioinformatics",
             "grantTitle": "Core JIC funding",
-            "year": "Current Position (2021)",
+            "year": "2021-2022",
             "location": "John Innes Centre, UK",
             "area":"Part of the [JIC Informatics group](https://www.jic.ac.uk/research-impact/technology-research-platforms/informatics/)",
             "abstract": "Bioinformatics analysis, data visualisation and tool development.",

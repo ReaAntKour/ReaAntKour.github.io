@@ -52,13 +52,13 @@ const renderDeck = (deckNum) => {
           <Card style={{ textAlign: 'center', border: 'transparent', backgroundColor: 'transparent', marginLeft: '0em' }}>
             <Card.Body>
               <Title title={'Rea L. Antoniou-Kourounioti'} selectColor={'darkBlue'}/>
-              <a href='https://www.jic.ac.uk/people/dr-rea-l-antoniou-kourounioti/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/jic.png'}/> </a>
+              <a href='https://www.gla.ac.uk/schools/molecularbiosciences/staff/realailaantonioukourounioti/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/UoG.png'}/> </a>
+              <a href='https://github.com/ReaAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/github.png'}/> </a>
               <a href='https://twitter.com/ReaLAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/Twitter.png'}/> </a>
               <a href='https://scholar.google.co.uk/citations?user=ZvaNmKcAAAAJ&hl=en'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/google_scholar.png'}/> </a>
               <a href='https://www.linkedin.com/in/rea-laila-antoniou-kourounioti-8962047/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/linkedin.png'}/> </a>
               <a href='https://www.researchgate.net/profile/Rea_Antoniou_Kourounioti'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/researchgate.png'}/> </a>
-              <a href='https://publons.com/researcher/AAY-3284-2020/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/publons.jpg'}/> </a>
-              <a href='https://github.com/ReaAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/github.png'}/> </a>
+              <a href='https://www.webofscience.com/wos/author/record/2072877'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/Web_of_Science_Logo.png'}/> </a>
               <a href='mailto:rea@antoniou-kourounioti.com'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/envelope.png'}/> </a>
             </Card.Body>
           </Card>
@@ -69,14 +69,17 @@ const renderDeck = (deckNum) => {
   );
 };
 // style={{height: '100px', object-fit: 'cover', display: 'block', width: '100%'}}
-//<img className={'card-img-top'} src={'images/background.jpg'} max-height= '100px' height= '100px' max-width= '600px' margin='auto' background-size='200px 400px' background-position= '0px 40%' position='relative'/>
-//<img alt='Media' object-fit={'cover'} display={'flex'} className={'card-img-top'} height='100px' width='100%' src={'images/background.jpg'}/>
-//</div>
-//<Card style={{border: 'transparent', backgroundColor: 'transparent'}}>
-//<img alt='Media' style={{ marginRight: '1px' }} className={'card-img-overlay'} width='800px' src={'images/background.jpg'}/>
-//</Card>
-//<Card style={{ border: `1px solid ${ColorCode.background}`, marginRight: '0em', width: '230px' }}>
-//<Markdown source={homeText}/>
+// <img className={'card-img-top'} src={'images/background.jpg'} max-height= '100px' height= '100px' max-width= '600px' margin='auto' background-size='200px 400px' background-position= '0px 40%' position='relative'/>
+// <img alt='Media' object-fit={'cover'} display={'flex'} className={'card-img-top'} height='100px' width='100%' src={'images/background.jpg'}/>
+// </div>
+// <Card style={{border: 'transparent', backgroundColor: 'transparent'}}>
+// <img alt='Media' style={{ marginRight: '1px' }} className={'card-img-overlay'} width='800px' src={'images/background.jpg'}/>
+// </Card>
+// <Card style={{ border: `1px solid ${ColorCode.background}`, marginRight: '0em', width: '230px' }}>
+// <Markdown source={homeText}/>
+
+// <a href='https://publons.com/researcher/AAY-3284-2020/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/publons.jpg'}/> </a>
+
 const renderDecks = () => {
   const decks = [];
   for (let i = 0; i < 1; i++) {

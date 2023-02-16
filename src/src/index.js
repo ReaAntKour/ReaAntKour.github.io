@@ -40,8 +40,8 @@ ReactDOM.render(
   // eslint-disable-next-line no-undef
   document.getElementById('root'),
 );
-//<WorkExperience sectionStyle={sectionStyle2} themeColour="yellow" titleColour="darkYellow"/>
-//<News sectionStyle={sectionStyle2}/>
-//<Research sectionStyle={sectionStyle}/>
-//<Members sectionStyle={sectionStyle}/>
-//<Sponsors sectionStyle={sectionStyle2}/>
+// <WorkExperience sectionStyle={sectionStyle2} themeColour="yellow" titleColour="darkYellow"/>
+// <News sectionStyle={sectionStyle2}/>
+// <Research sectionStyle={sectionStyle}/>
+// <Members sectionStyle={sectionStyle}/>
+// <Sponsors sectionStyle={sectionStyle2}/>
