@@ -53,6 +53,7 @@ const renderDeck = (deckNum) => {
             <Card.Body>
               <Title title={'Rea L. Antoniou-Kourounioti'} selectColor={'darkBlue'}/>
               <a href='https://www.gla.ac.uk/schools/molecularbiosciences/staff/realailaantonioukourounioti/'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/UoG.png'}/> </a>
+              <a href='https://orcid.org/0000-0001-5226-521X'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/ORCID.png'}/> </a>
               <a href='https://github.com/ReaAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/github.png'}/> </a>
               <a href='https://twitter.com/ReaLAntKour'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/Twitter.png'}/> </a>
               <a href='https://scholar.google.co.uk/citations?user=ZvaNmKcAAAAJ&hl=en'> <img alt='Media' style={{ marginRight: '15px' }} className={'rounded float-center'} height='50px' src={'images/google_scholar.png'}/> </a>
