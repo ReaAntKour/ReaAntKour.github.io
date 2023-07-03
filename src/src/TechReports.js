@@ -18,13 +18,13 @@ class TechReports {
   /* Return the three most recent entries. */
   // getRecentKeys = () => this.getKeys().slice(0, 3);
 
-  /* Return entries since 2018. */
+  /* Return entries since 2021. */
   getRecentKeys = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021') || (entry.year === '2020')));
+    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021')));
   }
 
   getRecentCount = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021') || (entry.year === '2020'))).length;
+    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021'))).length;
   }
 
   /* Return a list of selected entry keys. */

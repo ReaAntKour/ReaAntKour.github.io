@@ -29,9 +29,9 @@ ReactDOM.render(
     <Home sectionStyle={sectionStyle}/>
     <Top/>
     <ResearchInterests sectionStyle={sectionStyle2} themeColour="blue" titleColour="darkBlue"/>
+    <Papers sectionStyle={sectionStyle2} themeColour="blue" titleColour="darkBlue"/>
     <WorkExperience sectionStyle={sectionStyle2} themeColour="blue" titleColour="darkBlue"/>
     <Education sectionStyle={sectionStyle2} themeColour="yellow" titleColour="darkYellow"/>
-    <Papers sectionStyle={sectionStyle2} themeColour="blue" titleColour="darkBlue"/>
     <Conference sectionStyle={sectionStyle2} themeColour="blue" titleColour="darkBlue"/>
     <Teaching sectionStyle={sectionStyle2} themeColour="yellow" titleColour="darkYellow"/>
     <Bottom/>

@@ -12,7 +12,7 @@ import { ColorCode } from './Constants';
  */
 function SectionToggle(props) {
   const selectedLabel = props.selectedLabel || 'Selected';
-  const recentLabel = props.selectedLabel || 'Since 2020';
+  const recentLabel = props.selectedLabel || 'Since 2021';
   const buttonStyle = { borderColor: ColorCode[props.selectColor] };
   const selectedStyle = { ...buttonStyle, fontWeight: 'bold', backgroundColor: ColorCode[props.selectColor] };
   const deselectedStyle = {

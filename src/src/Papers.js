@@ -58,7 +58,7 @@ function Papers(props) {
   return (
     <div style={props.sectionStyle} id="papers">
       <Container>
-        <Title title={'Papers'} selectColor={props.titleColour}/>
+        <Title title={'Publications'} selectColor={props.titleColour}/>
         <SectionToggle onClick={onClickSectionButton} total={techreports.total()} recentCount={techreports.getRecentCount()} selectColor={props.titleColour}/>
         {display === 'selected' ? renderSelected() : (display === 'recent' ? renderRecent() : renderAll())}
         <p>* joint first authors, †joint corresponding authors</p>

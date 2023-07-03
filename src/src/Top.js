@@ -15,8 +15,9 @@ function Top() {
       <Navbar style={navbarStyle}>
         <Container className="justify-content-center">
           <Nav>
+            <Nav.Item><Nav.Link href="#papers" style={navbarItemStyle}>Publications</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="#workExperience" style={navbarItemStyle}>Research Experience</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="#education" style={navbarItemStyle}>Education</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href="#papers" style={navbarItemStyle}>Papers</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="#conferences" style={navbarItemStyle}>Conferences and Seminars</Nav.Link></Nav.Item>
           </Nav>
         </Container>

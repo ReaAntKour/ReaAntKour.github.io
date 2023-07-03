@@ -14,10 +14,10 @@ class ConferenceData {
     /* Return the three most recent entries. */
     //getRecentKeys = () => this.getKeys().slice(0, 3);
     
-    /* Return entries since 2020. */
+    /* Return entries since 2021. */
     getRecentKeys = () => {
         const entries = this.getSortedEntries(this.data);
-        return this.extractKey(_.filter(entries, entry => (entry.year === "2021")||(entry.year === "2020")));
+        return this.extractKey(_.filter(entries, entry => (entry.year === "2023")||(entry.year === "2022")||(entry.year === "2021")));
     }
 
     getRecentCount = () => {
@@ -147,7 +147,48 @@ class ConferenceData {
     /* Return a list of the Bibtex keys associated with the passed year. */
     getKeysByYear = (year) => this.buildYearMap()[year];
 
+    teaching_data = [
+        {
+            "key": "i2303",
+            "type": "Invited",
+            "title": "Applying mathematical modelling to biological problems in plant science",
+            "year": "2023",
+            "location": "Invited webinar by Rea L. Antoniou-Kourounioti & John A. Fozard in “Plants: a data sciences perspective” series by EMBL-EBI Training. https://www.ebi.ac.uk/training/events/applying-mathematical-modelling-biological-problems-plant-science/",
+            "dates": "15 March 2023",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2303,
+            "selected": 1
+        },
+        {
+            "key": "i2010",
+            "type": "Invited",
+            "title": "Modelling temperature-dependent epigenetic regulation",
+            "year": "2020",
+            "location": "Invited seminar in “Mathematics of life: Modelling molecular mechanisms” course by EMBL-EBI, Cambridge, UK",
+            "dates": "28 September - 2 October 2020",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2010,
+            "selected": 0
+        }
+    ]
     data = [
+        {
+            "key": "i2206",
+            "type": "Invited",
+            "title": "Mechanistic mathematical models to understand and mitigate the effect of climate change",
+            "year": "2022",
+            "location": "Invited speaker at Reaching blue skies for a sustainable future, University of Leeds, UK",
+            "dates": "29-30 June 2022",
+            "keywords": [
+                "Conference"
+            ],
+            "sortKey": 2206,
+            "selected": 1
+        },
         {
             "key": "o2107",
             "type": "Oral",
@@ -227,19 +268,6 @@ class ConferenceData {
                 "Seminar"
             ],
             "sortKey": 2104,
-            "selected": 1
-        },
-        {
-            "key": "i2010",
-            "type": "Invited",
-            "title": "Modelling temperature-dependent epigenetic regulation",
-            "year": "2020",
-            "location": "Invited seminar in “Mathematics of life: Modelling molecular mechanisms” course by EMBL-EBI, Cambridge, UK",
-            "dates": "28 September - 2 October 2020",
-            "keywords": [
-                "Conference"
-            ],
-            "sortKey": 2010,
             "selected": 1
         },
         {

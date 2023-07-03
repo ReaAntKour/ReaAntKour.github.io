@@ -37,25 +37,27 @@ function Teaching(props) {
             <Card style={cardStyle}>
                 <Card.Body>
                     <h2>Teaching</h2>
-                    <p>•	Problem classes for teaching Mathematics at University of East Anglia (UEA) to first year Biology students involving preparation of the material, in 2018.<br/>
-                    •	Assisted in two-hour introductory python workshops for the Summer School at JIC (13/7/2018 and 12/7/2019).<br/>
-                    •	One-hour lecture entitled “ODEs and experiments, bringing the two together” in the postgraduate “Systems biology Level 2” course at JIC (22/2/2017).<br/>
-                    •	Repeat of the “ODEs and experiments, bringing the two together” lecture and organisation, as part of a team, of a follow-up at the “Epigenetics meets Mathematics” Summer School (2-8/7/2017).<br/>
-                    •	During PhD studies at the University of Nottingham:<br/>
-                    -	Demonstrated in Statistics problem classes.<br/>
-                    -	Tutored in Mathematics for Biology classes.<br/>
-                    -	Invigilated in lab-based and computer-based examinations.</p>
+                    <p>•	Computer lab to 3rd Year Biochemistry<br/>
+                    •	Lecture to 2nd Year Biology<br/>
+                    •	Applying mathematical modelling to biological problems in plant science (2023) Webinar in the EMBL-EBI Training series Plants: a data sciences perspective. 15 March 2023. doi: 10.6019/TOL.Mathematical_Modelling_Plants-w.2023.00001.1<br/>
+                    •	RNAseq course, January and March 2022<br/>
+                    •	Python course, February 2022<br/>
+                    •	Modelling temperature-dependent epigenetic regulation (2020) Invited talk at “Mathematics of life: Modelling molecular mechanisms” course by EMBL-EBI, UK, 28 September - 2 October 2020<br/>
+                    •	Math problem classes to first year Biology students including developing exercises, University of East Anglia, UK, 2018.<br/>
+                    •	Introductory python workshops, JIC Summer School, Jul 2018 and 2019.<br/>
+                    •	“ODEs and experiments, bringing the two together” lecture in the postgraduate “Systems biology Level 2” course at JIC (22/2/2017) and follow-up at the “Epigenetics meets Mathematics” Summer School (2-8/7/2017).</p>
                 </Card.Body>
             </Card>
             <Card style={cardStyle}>
                 <Card.Body>
+                    <h2>Supervised</h2>
+                    <p>•	4 Master’s students<br/>
+                    •	1 Undergraduate Honours project<br/>
+                    •	4 Summer students</p>
                     <h2>Co-supervised</h2>
-                    <p>•	Amelie Heckmann (experimental) – Master’s student 2016 in the Dean lab.<br/>
-                    •	Alex Coates (theoretical) – Undergraduate visitor 2016 <br/>
-                    •	Bryony Yates (experimental) – Undergraduate, Summer school student 2018<br/>
-                    •	Terri Holmes (experimental and theoretical) – Master’s, Summer project 2019<br/>
-                    •	Judit Talas (experimental) – Master’s student 2019-2020<br/>
-                    •	Svenja Reeck (experimental and theoretical) – PhD student - current</p>
+                    <p>•	2 PhD students<br/>
+                    •	2 Master’s students<br/>
+                    •	1 Summer student</p>
                 </Card.Body>
             </Card>
         </CardDeck>
@@ -63,7 +65,7 @@ function Teaching(props) {
     </div>
   );
 }
-        
+
 Teaching.propTypes = {
   sectionStyle: PropTypes.object.isRequired,
 };
