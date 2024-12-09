@@ -37,25 +37,24 @@ function Conferences(props) {
               }
   };
 
-
   const render = (selection) => {
     let keys;
-    if (selection=="selected") {
+    if (selection === 'selected') {
       keys = conferenceData.getSelectedKeys();
     } else
-      if (selection=="recent") {
+      if (selection === 'recent') {
         keys = conferenceData.getRecentKeys();
       } else
-        if (selection=="invited") {
+        if (selection === 'invited') {
           keys = conferenceData.getInvitedKeys();
-        }else
-          if (selection=="oral") {
+        } else
+          if (selection === 'oral') {
             keys = conferenceData.getOralKeys();
-          }else
-            if (selection=="poster") {
+          } else
+            if (selection === 'poster') {
               keys = conferenceData.getPosterKeys();
-            }else
-              if (selection=="all") {
+            } else
+              if (selection === 'all') {
                 keys = conferenceData.getKeys();
               }
     return (
@@ -102,8 +101,8 @@ function Conferences(props) {
     </div>
   );
 }
-//{display === 'selected' ? renderSelected() : <ConferenceForm/>}
-//{display === 'selected' ? renderSelected() : (display === 'recent' ? renderRecent() : renderAll())}
+// {display === 'selected' ? renderSelected() : <ConferenceForm/>}
+// {display === 'selected' ? renderSelected() : (display === 'recent' ? renderRecent() : renderAll())}
 
 Conferences.propTypes = {
   sectionStyle: PropTypes.object.isRequired,

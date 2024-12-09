@@ -17,7 +17,7 @@ const formatMsThesis = entry => `${entry.authors.join(', ')},  **${entry.title}*
 
 const formatInProceedings = entry => `${entry.authors.join(', ')},  **${entry.title}**, In *${entry.booktitle}*, ${entry.address ? `${entry.address},` : ''} ${entry.month} ${entry.year}, ${(entry.note) ? `([pdf](${entry.note}))` : ''}`;
 
-const formatArticle = entry => `${entry.authors.join(', ')},  **${entry.title}**. *${entry.journal}*, ${entry.volume ? `**${entry.volume}**:` : ''} ${entry.pages ? `${entry.pages},` : ''} ${entry.month ? entry.month : ''} ${entry.year}, ([link](${entry.url})) ${(entry.note) ? `, ([pdf](${entry.note}))` : ''}`;
+const formatArticle = entry => `${entry.authors.join(', ')},  **${entry.title}**. *${entry.journal}*, ${entry.volume ? `**${entry.volume}**:` : ''} ${entry.pages ? `${entry.pages},` : ''} ${entry.month ? entry.month : ''} ${entry.year}, ([link](${entry.url})) ${(entry.note) ? `, (${entry.note})` : ''}`;
 
 const formatMisc = entry => `${entry.authors.join(', ')},  **${entry.title}**, ${entry.howpublished}, ${entry.month} ${entry.year}, ${(entry.note) ? `([pdf](${entry.note}))` : ''}`;
 
@@ -30,10 +30,11 @@ const formatMap = {
   mastersthesis: formatMsThesis,
   inproceedings: formatInProceedings,
   article: formatArticle,
+  preprint: formatArticle,
   misc: formatMisc,
   inbook: formatInBook,
 };
-  
+
 /* Make it easy to get the colour from caller function. */
 const lightColour = {
   blue: ColorCode.vlightBlue,
@@ -68,7 +69,7 @@ function PaperCard(props) {
     </Accordion>
   );
 }
-//<p style={{ textAlign: 'center' }}> Abstract <span class="glyphicon glyphicon-chevron-down"></span></p>
+// <p style={{ textAlign: 'center' }}> Abstract <span class="glyphicon glyphicon-chevron-down"></span></p>
 
 PaperCard.propTypes = {
   entry: PropTypes.object.isRequired,

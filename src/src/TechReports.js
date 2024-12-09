@@ -19,18 +19,12 @@ class TechReports {
   // getRecentKeys = () => this.getKeys().slice(0, 3);
 
   /* Return entries since 2021. */
-  getRecentKeys = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021')));
-  }
+  getRecentKeys = () => this.extractKey(_.filter(paperData, entry => (entry.type === 'article') && ((entry.year === '2026') || (entry.year === '2025') || (entry.year === '2024') || (entry.year === '2023'))))
 
-  getRecentCount = () => {
-    return this.extractKey(_.filter(paperData, entry => (entry.year === '2023') || (entry.year === '2022') || (entry.year === '2021'))).length;
-  }
+  getRecentCount = () => this.getRecentKeys().length
 
   /* Return a list of selected entry keys. */
-  getSelectedKeys = () => {
-    return this.extractKey(_.filter(paperData, entry => entry.selected === 1));
-  }
+  getSelectedKeys = () => this.extractKey(_.filter(paperData, entry => entry.selected === 1))
 
   /* Return a list of all BibTex entry types (i.e. 'phdthesis', 'article', etc.) */
   getTypes = () => {

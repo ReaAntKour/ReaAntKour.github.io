@@ -51,13 +51,11 @@ function Teaching(props) {
             <Card style={cardStyle}>
                 <Card.Body>
                     <h2>Supervised</h2>
-                    <p>•	4 Master’s students<br/>
-                    •	1 Undergraduate Honours project<br/>
-                    •	4 Summer students</p>
+                    <p>•	9 Master’s students<br/>
+                    •	2 Undergraduate Honours project<br/>
+                    •	7 Summer students</p>
                     <h2>Co-supervised</h2>
-                    <p>•	2 PhD students<br/>
-                    •	2 Master’s students<br/>
-                    •	1 Summer student</p>
+                    <p>•	6 PhD students</p>
                 </Card.Body>
             </Card>
         </CardDeck>

@@ -1,5 +1,108 @@
 [
   {
+    "key": "battle_2024",
+    "type": "article",
+    "title": "Manipulation of photosensory and circadian signalling restricts phenotypic plasticity in response to changing environmental conditions in Arabidopsis",
+    "year": "2024",
+    "month": "Sep",
+    "abstract": "Plants exploit phenotypic plasticity to adapt their growth and development to prevailing environmental conditions. Interpretation of light and temperature signals is aided by the circadian system, which provides a temporal context. Phenotypic plasticity provides a selective and competitive advantage in nature but is obstructive during large-scale, intensive agricultural practices since economically important traits (including vegetative growth and flowering time) can vary widely depending on local environmental conditions. This prevents accurate prediction of harvesting times and produces a variable crop. In this study, we sought to restrict phenotypic plasticity and circadian regulation by manipulating signaling systems that govern plants’ responses to environmental signals. Mathematical modeling of plant growth and development predicted reduced plant responses to changing environments when circadian and light signaling pathways were manipulated. We tested this prediction by utilizing a constitutively active allele of the plant photoreceptor phytochrome B, along with disruption of the circadian system via mutation of *EARLY FLOWERING3*. We found that these manipulations produced plants that are less responsive to light and temperature cues and thus fail to anticipate dawn. These engineered plants have uniform vegetative growth and flowering time, demonstrating how phenotypic plasticity can be limited while maintaining plant productivity. This has significant implications for future agriculture in both open fields and controlled environments.",
+    "journal": "Molecular Plant",
+    "volume": "17",
+    "pages": "1458-1471",
+    "url": "https://doi.org/10.1016/j.molp.2024.07.007",
+    "authors": [
+      "Martin W. Battle",
+      "Scott F. Ewing",
+      "Cathryn Dickson",
+      "Joseph Obaje",
+      "Kristen N. Edgeworth",
+      "Rebecca Bindbeutel",
+      "Rea L. Antoniou-Kourounioti",
+      "Dmitri A. Nusinow",
+      "Matthew Alan Jones"
+    ],
+    "keywords": [
+      "Journal-Article"
+    ],
+    "sortKey": 202409,
+    "selected": 1
+  },
+  {
+    "key": "zhang_2023",
+    "type": "article",
+    "title": "Single amino acid change alters specificity of the multi-allelic wheat stem rust resistance locus SR9",
+    "year": "2023",
+    "month": "Nov",
+    "abstract": "Most rust resistance genes thus far isolated from wheat have a very limited number of functional alleles. Here, we report the isolation of most of the alleles at wheat stem rust resistance gene locus *SR9*. The seven previously reported resistance alleles (*Sr9a, Sr9b, Sr9d, Sr9e, Sr9f, Sr9g,* and *Sr9h*) are characterised using a synergistic strategy. Loss-of-function mutants and/or transgenic complementation are used to confirm *Sr9b*, two haplotypes of *Sr9e* (*Sr9e_h1* and *Sr9e_h2*), *Sr9g*, and *Sr9h*. Each allele encodes a highly related nucleotide-binding site leucine-rich repeat (NB-LRR) type immune receptor, containing an unusual long LRR domain, that confers resistance to a unique spectrum of isolates of the wheat stem rust pathogen. The only SR9 protein effective against stem rust pathogen race TTKSK (Ug99), SR9H, differs from SR9B by a single amino acid. SR9B and SR9G resistance proteins are also distinguished by only a single amino acid. The *SR9* allelic series found in the B subgenome are orthologs of wheat stem rust resistance gene *Sr21* located in the A subgenome with around 85% identity in protein sequences. Together, our results show that functional diversification of allelic variants at the *SR9* locus involves single and multiple amino acid changes that recognize isolates of wheat stem rust.",
+    "journal": "Nature Communications",
+    "volume": "14",
+    "pages": "7354",
+    "url": "https://www.nature.com/articles/s41467-023-42747-9",
+    "authors": [
+      "Jianping Zhang",
+      "Jayaveeramuthu Nirmala",
+      "Shisheng Chen",
+      "Matthias Jost",
+      "Burkhard Steuernagel",
+      "Mirka Karafiatova",
+      "Tim Hewitt",
+      "Hongna Li",
+      "Erena Edae",
+      "Keshav Sharma",
+      "Sami Hoxha",
+      "Dhara Bhatt",
+      "Rea L. Antoniou-Kourounioti",
+      "Peter Dodds",
+      "Brande B. H. Wulff",
+      "Jaroslav Dolezel",
+      "Michael Ayliffe",
+      "Colin Hiebert",
+      "Robert McIntosh",
+      "Jorge Dubcovsky",
+      "Peng Zhang",
+      "Matthew N. Rouse",
+      "Evans Lagudah"
+    ],
+    "keywords": [
+      "Journal-Article"
+    ],
+    "sortKey": 202311,
+    "selected": 0
+  },
+  {
+    "key": "Antoniou-Kourounioti_2023",
+    "type": "article",
+    "title": " Integrating analog and digital modes of gene expression at Arabidopsis *FLC*",
+    "year": "2023",
+    "month": "Jul",
+    "abstract": "Quantitative gene regulation at the cell population level can be achieved by two fundamentally different modes of regulation at individual gene copies. A ‘digital’ mode involves binary ON/OFF expression states, with population-level variation arising from the proportion of gene copies in each state, while an ‘analog’ mode involves graded expression levels at each gene copy. At the *Arabidopsis* floral repressor *FLOWERING LOCUS C (FLC)*, ‘digital’ Polycomb silencing is known to facilitate quantitative epigenetic memory in response to cold. However, whether *FLC* regulation before cold involves analog or digital modes is unknown. Using quantitative fluorescent imaging of *FLC* mRNA and protein, together with mathematical modeling, we find that *FLC* expression before cold is regulated by both analog and digital modes. We observe a temporal separation between the two modes, with analog preceding digital. The analog mode can maintain intermediate expression levels at individual *FLC* gene copies, before subsequent digital silencing, consistent with the copies switching OFF stochastically and heritably without cold. This switch leads to a slow reduction in *FLC* expression at the cell population level. These data present a new paradigm for gradual repression, elucidating how analog transcriptional and digital epigenetic memory pathways can be integrated.",
+    "journal": "eLife",
+    "volume": "12",
+    "pages": "e79743",
+    "url": "https://doi.org/10.7554/elife.79743",
+    "authors": [
+      "Rea L. Antoniou-Kourounioti\\*", 
+      "Anis Meschichi\\*", 
+      "Svenja Reeck\\*", 
+      "Scott Berry", 
+      "Govind Menon", 
+      "Yusheng Zhao", 
+      "John A. Fozard", 
+      "Terri L. Holmes", 
+      "Lihua Zhao",
+      "Huamei Wang", 
+      "Matthew Hartley", 
+      "Caroline Dean†",
+      "Stefanie Rosa†", 
+      "Martin Howard†" 
+    ],
+    "keywords": [
+      "Journal-Article"
+    ],
+    "sortKey": 202307,
+    "selected": 1
+  },
+  {
     "key": "auge_2023",
     "type": "article",
     "title": "Plant Environmental Memory: Implications, Mechanisms, And Opportunities For Plant Scientists And Beyond",
@@ -71,13 +174,13 @@
   },
   {
     "key": "zhang_2022preprint",
-    "type": "article",
+    "type": "preprint",
     "title": "A single amino acid change can alter the specificity of the multi-allelic wheat stem rust resistance locus *SR9*",
     "year": "2022",
     "month": "Oct",
     "abstract": "Most resistance genes thus far isolated from wheat have a very limited number of functional alleles, with the exception of the powdery mildew *PM3* resistance locus. Here we report the isolation of most of the alleles at wheat stem rust resistance gene locus *SR9*, representing the largest multi-allelic rust resistance locus in common wheat. The seven previously reported resistance alleles (*Sr9a, Sr9b, Sr9d, Sr9e, Sr9f, Sr9g,* and *Sr9h*) at the locus were characterised using a synergistic strategy. Loss-of-function mutants and/or transgenic complementation were used to confirm *Sr9b*, two haplotypes of *Sr9e* (*Sr9e_h1*, *Sr9e_h2*), *Sr9g*, and *Sr9h*. Each allele encodes a highly related nucleotide-binding site leucine-rich repeat (NB-LRR) type immune receptor, containing a previously unreported motif at their N termini and an unusual long LRR domain, that confers resistance to a unique spectrum of isolates of the wheat stem rust pathogen. The only SR9 protein effective against stem rust pathogen race TTKSK (Ug99), SR9H, differed from SR9B by a single amino acid. SR9B and SR9G resistance proteins were also distinguished by only a single amino acid. The *SR9* allelic series found in the B subgenome are orthologs of wheat stem rust resistance gene *Sr21* located in the A subgenome with around 85% identity in protein sequences.",
     "journal": "Research Square",
-    "url": "https://assets.researchsquare.com/files/rs-2208386/v1_covered.pdf?c=1667178473",
+    "url": "https://www.researchsquare.com/article/rs-2208386/v1",
     "authors": [
      "Jianping Zhang", 
      "Jayaveeramuthu Nirmala", 
@@ -103,15 +206,16 @@
      "Matthew Rouse",
      "Evans Lagudah" 
     ],
+    "note": "Now published in [*Nature Communications*](https://www.nature.com/articles/s41467-023-42747-9)",
     "keywords": [
-      "Journal-Article"
+      "Preprint"
     ],
     "sortKey": 202210,
     "selected": 0
   },
   {
     "key": "antoniou-kourounioti_2022preprint",
-    "type": "article",
+    "type": "preprint",
     "title": "Integrating analog and digital modes of gene expression at Arabidopsis *FLC*",
     "year": "2022",
     "month": "Jul",
@@ -134,8 +238,9 @@
      "Stefanie Rosa†", 
      "Martin Howard†" 
     ],
+    "note": "Now published in [*eLife*](https://doi.org/10.7554/elife.79743)",
     "keywords": [
-      "Journal-Article"
+      "Preprint"
     ],
     "sortKey": 202207,
     "selected": 0
@@ -190,7 +295,7 @@
       "Journal-Article"
     ],
     "sortKey": 202101,
-    "selected": 0
+    "selected": 1
   },
   {
     "key": "jarad_2020",
@@ -273,7 +378,7 @@
   },
   {
     "key": "hepworth2020preprint",
-    "type": "article",
+    "type": "preprint",
     "title": "Natural variation in autumn *FLC* levels, rather than epigenetic silencing, aligns vernalization to different climates",
     "year": "2020",
     "month": "Apr",
@@ -295,8 +400,9 @@
       "Svante Holm",
       "Caroline Dean"
     ],
+    "note": "Now published in [*eLife*](https://doi.org/10.7554%2Felife.57671)",
     "keywords": [
-      "Journal-Article"
+      "Preprint"
     ],
     "sortKey": 202004,
     "selected": 0
@@ -326,7 +432,7 @@
       "Journal-Article"
     ],
     "sortKey": 202001,
-    "selected": 1
+    "selected": 0
   },
   {
     "key": "antoniou-kourounioti_2018",
@@ -355,7 +461,7 @@
       "Journal-Article"
     ],
     "sortKey": 201811,
-    "selected": 1
+    "selected": 0
   },
   {
     "key": "hepworth_2018",
